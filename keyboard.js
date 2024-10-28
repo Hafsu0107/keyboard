@@ -8,6 +8,7 @@ let space_btn = document.querySelector(".space");
 buttons.forEach((btn) => {
   // forEach array ki ek ek value ko print krwata hai
   btn.addEventListener("click", () => {
+    // bht sary event ko listner krskta hai addEvenListner
     textarea.value += btn.innerText;
     chars = textarea.value.split("");
     // .split() The split function  separate  a string in pieces and return them in an array
